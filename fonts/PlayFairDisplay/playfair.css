@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display'), local('PlayfairDisplay-Regular'), url('../fonts/PlayFairDisplay/playfairdisplay.woff2') format('woff2'), url('../fonts/PlayFairDisplay/playfairdisplay.woff') format('woff'), url('../fonts/PlayFairDisplay/playfairdisplay.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Italic'), local('PlayfairDisplay-Italic'), url('../fonts/PlayFairDisplay/playfairdisplayitalic.woff2') format('woff2'), url('../fonts/PlayFairDisplay/playfairdisplayitalic.woff') format('woff'), url('../fonts/PlayFairDisplay/playfairdisplayitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'), url('../fonts/PlayFairDisplay/playfairdisplaybold.woff2') format('woff2'), url('../fonts/PlayFairDisplay/playfairdisplaybold.woff') format('woff'), url('../fonts/PlayFairDisplay/playfairdisplaybold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Bold Italic'), local('PlayfairDisplay-BoldItalic'), url('../fonts/PlayFairDisplay/playfairdisplaybolditalic.woff2') format('woff2'), url('../fonts/PlayFairDisplay/playfairdisplaybolditalic.woff') format('woff'), url('../fonts/PlayFairDisplay/playfairdisplaybolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Black'), local('PlayfairDisplay-Black'), url('../fonts/PlayFairDisplay/playfairdisplayblack.woff2') format('woff2'), url('../fonts/PlayFairDisplay/playfairdisplayblack.woff') format('woff'), url('../fonts/PlayFairDisplay/playfairdisplayblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Black Italic'), local('PlayfairDisplay-BlackItalic'), url('../fonts/PlayFairDisplay/playfairdisplayblackitalic.woff2') format('woff2'), url('../fonts/PlayFairDisplay/playfairdisplayblackitalic.woff') format('woff'), url('../fonts/PlayFairDisplay/playfairdisplayblackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
