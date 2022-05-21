@@ -12,7 +12,7 @@
 	<header>
 		<div class="container">
 			<div class="menue-logo-tel-header">
-				<a href="#" class="menue-icon">
+				<a href="#" class="menue-icon" id="menu">
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="18" viewBox="0 0 26 18">
 						<image id="_002-menu" data-name="002-menu" width="26" height="18" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAASCAQAAADvEAYoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfjDAIXNjplhBs0AAAAbElEQVQoz93RIQ7CUBAE0Lc/X9aCqWiwCCT3N3gqSEgqQMMVIMsVuggE619mMht5chTWXzp3o14gMEayK6JbZFFA+8L8EHVsiubZzQ5FdG2GcrshkklYu3zg/q9/2haGgEd3sS8GLc2r3O79ATxQE+yvfI3mAAAAAElFTkSuQmCC"/>
 					</svg>
@@ -269,9 +269,11 @@
 							<h2 class="playfairdisplay">
 								Дизайн коммерческих объектов
 							</h2>
-							<p>
-								Работая с коммерческими объектами, студия изучает целевую аудиторию, создаем коммерческие интерьеры такими, чтобы посетители кафе, бара, гостиницы хотели возвращаться в интерьер снова и снова
+							<p class="services-image-with-text__desc">
+								Работая с коммерческими объектами, студия изучает целевую аудиторию, создаем коммерческие интерьеры такими, 
+								<span class="extra-info">чтобы посетители кафе, бара, гостиницы хотели возвращаться в интерьер снова и снова</span>
 							</p>
+							<span class="show-more">Show more...</span>
 						</div>
 						<span class="design-of-objects-number">
 							532 проекта
@@ -386,10 +388,10 @@
 					Оставьте контактные данные, менеджер свяжется с вами в течении 15 минут, для уточнения всех деталей.
 				</p>
 				<form id="someForm" class="user-request-log-in-form">
-					<input  type="text" placeholder="Имя*" class="form-name">
-					<input type="tel" placeholder="Телефон*" class="form-phone">
-					<input type="email" placeholder="E-mail" class="form-email">
-					<button class="form-button">
+					<input  id="name" type="text" placeholder="Имя*" class="form-name">
+					<input id="phone"  type="tel" placeholder="Телефон*" class="form-phone">
+					<input id="email"  type="email" placeholder="E-mail" class="form-email">
+					<button id="submit"  class="form-button" type="submit">
 						ОТПРАВИТЬ
 					</button>
 					<p class="form-paragraf">
@@ -478,5 +480,7 @@
 		</div>
 	</div>
 </footer>
+<script src="index.js"></script>
+<script src="show.js"></script>
 </body>
 </html>

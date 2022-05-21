@@ -94,9 +94,11 @@ header:before {
 .menue a:hover{
 	color: #C88852;
 }
+/*
 .menue-icon:hover + .menue{
 	display: flex;
 }
+*/
 .logo-header{
 	position: absolute;
 	z-index: 1;
@@ -735,6 +737,7 @@ main{
 	background-position: right;
 }
 .form-button{
+	cursor: pointer;
 	font-weight: 800;
 	font-size: 15px;
 	line-height: 16.52px;
@@ -853,6 +856,12 @@ main{
 	right: -9px;
 	top: 38px;
 }
+.show-more{
+	cursor: pointer;
+}
+.extra-info{
+	display: none;
+}
 .review-slider{
 	display: flex;
 	justify-content: center;
@@ -952,6 +961,7 @@ footer{
 		top: 61px;
 	}
 	.menue-icon{
+		cursor: pointer;
 		display: none;
 	}
 	.menue-icon-768{
